@@ -139,18 +139,19 @@
                             <constraint firstItem="vl7-5G-Icm" firstAttribute="trailing" secondItem="3Yj-Dg-HbI" secondAttribute="trailing" constant="16" id="Igk-z3-9C5"/>
                             <constraint firstItem="3Yj-Dg-HbI" firstAttribute="top" secondItem="vl7-5G-Icm" secondAttribute="top" constant="20" id="bV4-ie-mlh"/>
                             <constraint firstItem="ETl-si-9BH" firstAttribute="centerX" secondItem="vl7-5G-Icm" secondAttribute="centerX" id="h9b-ah-cfS"/>
-                            <constraint firstItem="I7o-CK-Oa1" firstAttribute="top" secondItem="P2l-oE-Iqz" secondAttribute="bottom" constant="55" id="hQM-Rk-nbx"/>
-                            <constraint firstItem="P2l-oE-Iqz" firstAttribute="firstBaseline" secondItem="ETl-si-9BH" secondAttribute="baseline" constant="40" symbolType="layoutAnchor" id="mn0-yi-ptn"/>
+                            <constraint firstItem="I7o-CK-Oa1" firstAttribute="top" secondItem="P2l-oE-Iqz" secondAttribute="bottom" constant="26" id="hQM-Rk-nbx"/>
                             <constraint firstItem="I7o-CK-Oa1" firstAttribute="centerX" secondItem="P2l-oE-Iqz" secondAttribute="centerX" id="ngQ-zH-qeb"/>
                             <constraint firstItem="ETl-si-9BH" firstAttribute="leading" secondItem="vl7-5G-Icm" secondAttribute="leading" constant="50" id="pOg-wU-ZDf"/>
-                            <constraint firstItem="P2l-oE-Iqz" firstAttribute="top" secondItem="ETl-si-9BH" secondAttribute="bottom" constant="96.5" id="qxu-OY-4rt"/>
+                            <constraint firstItem="P2l-oE-Iqz" firstAttribute="top" secondItem="ETl-si-9BH" secondAttribute="bottom" constant="44.5" id="qxu-OY-4rt"/>
                             <constraint firstItem="P2l-oE-Iqz" firstAttribute="centerX" secondItem="ETl-si-9BH" secondAttribute="centerX" id="tph-eE-N9J"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bountyLAbelCenterX" destination="ngQ-zH-qeb" id="qnW-Rl-cMx"/>
                         <outlet property="bountyLabel" destination="I7o-CK-Oa1" id="exN-B1-xzt"/>
                         <outlet property="imgView" destination="ETl-si-9BH" id="Gp0-Yr-4Mi"/>
                         <outlet property="nameLabel" destination="P2l-oE-Iqz" id="lZQ-Hd-IiG"/>
+                        <outlet property="nameLabelCenterX" destination="tph-eE-N9J" id="T1O-A3-zcl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25E-SC-2Uh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
